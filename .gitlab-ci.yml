@@ -1,0 +1,43 @@
+image: registry.baymax.ninja/library/docker-golang:latest
+
+before_script:
+# Run ssh-agent (inside the build environment)
+- eval $(ssh-agent -s)
+- ssh-add <(echo "$SSH_PRIVATE_KEY")
+- mkdir -p ~/.ssh
+- '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+
+stages:
+- build
+- deploy
+
+build:
+    stage: build
+    script:
+    - yarn && yarn global add gulp
+    - yarn build
+    - gulp --username=$UPYUN_USERNAME --password=$UPYUN_PASSWORD --bucket=$UPYUN_BUCKET
+    only:
+    - master@ClubCodoon/faq
+
+pre-release:
+    stage: build
+    script:
+    - yarn && yarn global add gulp
+    - yarn build
+    - gulp --username=$UPYUN_USERNAME --password=$UPYUN_PASSWORD --bucket=$UPYUN_BUCKET
+    only:
+    - release@ClubCodoon/faq
+    except:
+    - tags
+
+stable-release:
+    stage: build
+    script:
+    - yarn && yarn global add gulp
+    - yarn build
+    - gulp --username=$UPYUN_USERNAME_PRO --password=$UPYUN_PASSWORD_PRO --bucket=$UPYUN_BUCKET_PRO
+    only:
+    - tags
+    except:
+    - branches

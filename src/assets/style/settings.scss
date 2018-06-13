@@ -1,0 +1,25 @@
+$color-black: #111;
+$color-black-light: #333;
+$color-gray: #999;
+$color-gray-heavy: #666;
+$color-gray-light: #ddd;
+$color-blue: #00b9ff;
+$color-blue2: #4690ff;
+$color-bg: #f4f5f5;
+$color-yellow: #ff7800;
+$color-yellow-light: #fff1e5;
+
+// 设计稿宽度 已经相应的 px 转化函数
+$designWidth: 750px;
+@function px2rem($px){
+  @return $px*320/$designWidth/20 + rem;
+}
+
+// 一些全局设置
+textarea {
+  resize: none;
+}
+
+*:focus {
+  outline: none;
+}
