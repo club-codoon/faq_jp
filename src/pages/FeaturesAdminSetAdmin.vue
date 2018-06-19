@@ -1,10 +1,10 @@
 <template>
   <page>
     <template slot="content">
-      <q-and-a-content :title="'管理者の追加と削除'">
+      <q-and-a-content :title="'管理者の設定'">
         <template slot="content">
           <div class="text">
-            <b>グループ管理</b>の<b>管理者を設定</b>から、グループの管理者を<b>追加/削除</b>することができます。
+            <b>グループ管理</b>の<b>管理者を設定</b>を選択し、グループの管理者を<b>追加または削除</b>することができます。
           </div>
           <img class="picture" src="../assets/images/features_admin/9.png">
         </template>

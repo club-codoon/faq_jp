@@ -10,31 +10,31 @@
       <template slot="tabs">
         <tab-content :name="'member'">
           <list-group>
-            <list-item :text="'グループ参加'" :urlName="'FeaturesJoinClub'"></list-item>
+            <list-item :text="'グループへの参加'" :urlName="'FeaturesJoinClub'"></list-item>
             <list-item :text="'管理者への連絡'" :urlName="'FeaturesContactAdmin'"></list-item>
-            <list-item :text="'アカウントの紐付け'" :urlName="'FeaturesBindingAccount'"></list-item>
-            <list-item :text="'日本語版では不要のため削除'" :urlName="'FeaturesSwitchDataSource'"></list-item>
+            <list-item :text="'アカウントの変更'" :urlName="'FeaturesBindingAccount'"></list-item>
+            <list-item :text="'計測方法の切り替え'" :urlName="'FeaturesSwitchDataSource'"></list-item>
             <list-item :text="'より正確な歩数計測方法(android)'" :urlName="'FeaturesImproveDataPrecision'"></list-item>
             <list-item :text="'データ同期の確認'" :urlName="'FeaturesCheckDataSync'"></list-item>
             <list-item :text="'日替ミッション'" :urlName="'FeaturesDailyMission'"></list-item>
             <list-item :text="'マイルでの景品交換'" :urlName="'FeaturesBean'"></list-item>
-            <list-item :text="'屋外ランニング(GPS)'" :urlName="'FeaturesGPS'"></list-item>
-            <list-item :text="'ランキング'" :urlName="'FeaturesRank'"></list-item>
-            <list-item :text="'グループのイベントを確認'" :urlName="'FeaturesActivity'"></list-item>
+            <list-item :text="'屋外ラン／ウォーク(GPS)'" :urlName="'FeaturesGPS'"></list-item>
+            <list-item :text="'ランキングの確認'" :urlName="'FeaturesRank'"></list-item>
+            <list-item :text="'グループイベントの確認'" :urlName="'FeaturesActivity'"></list-item>
             <list-item :text="'チャット'" :urlName="'FeaturesChat'"></list-item>
           </list-group>
         </tab-content>
         <tab-content :name="'admin'">
           <list-group>
-            <list-item :text="'グループ開設方法'" :urlName="'FeaturesAdminCreateClub'"></list-item>
-            <list-item :text="'友達をグループに招待'" :urlName="'FeaturesAdminMemberJoin'"></list-item>
-            <list-item :text="'参加パスワードの変更方法'" :urlName="'FeaturesAdminChangeJoinPassword'"></list-item>
-            <list-item :text="'グループ名などの変更方法'" :urlName="'FeaturesAdminUpdateClubInfo'"></list-item>
-            <list-item :text="'部門の追加と削除'" :urlName="'FeaturesAdminUpdateTeam'"></list-item>
-            <list-item :text="'会員の部門変更と削除'" :urlName="'FeaturesAdminUpdateMember'"></list-item>
-            <list-item :text="'管理者の追加と削除'" :urlName="'FeaturesAdminSetAdmin'"></list-item>
+            <list-item :text="'グループの開設'" :urlName="'FeaturesAdminCreateClub'"></list-item>
+            <list-item :text="'メンバーの追加'" :urlName="'FeaturesAdminMemberJoin'"></list-item>
+            <list-item :text="'参加パスワードの変更'" :urlName="'FeaturesAdminChangeJoinPassword'"></list-item>
+            <list-item :text="'グループ情報の変更'" :urlName="'FeaturesAdminUpdateClubInfo'"></list-item>
+            <list-item :text="'部門組織の登録'" :urlName="'FeaturesAdminUpdateTeam'"></list-item>
+            <list-item :text="'メンバーの所属部門の変更と削除'" :urlName="'FeaturesAdminUpdateMember'"></list-item>
+            <list-item :text="'管理者の設定'" :urlName="'FeaturesAdminSetAdmin'"></list-item>
             <list-item :text="'イベントの作成'" :urlName="'FeaturesAdminCreateActivity'"></list-item>
-            <list-item :text="'イベントのアーカイブ/削除'" :urlName="'FeaturesAdminDeleteActivity'"></list-item>
+            <list-item :text="'イベントの削除とアーカイブ'" :urlName="'FeaturesAdminDeleteActivity'"></list-item>
             <list-item :text="'イベントデータのエクスポート'" :urlName="'FeaturesAdminExportActivityResult'"></list-item>
           </list-group>
           <list-group :title="'イベント  作成 / 設定'">

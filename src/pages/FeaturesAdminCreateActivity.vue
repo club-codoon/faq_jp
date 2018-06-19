@@ -4,7 +4,7 @@
       <q-and-a-content :title="'イベントの作成'">
         <template slot="content">
           <div class="text">
-            <b>MYイベント</b>画面の右上隅のアイコンをタップすると、<b>イベント作成</b>画面を表示することができます。各イベントテンプレートの<b>ルールを確認</b>をみて、好きなイベントを作成しましょう。
+            <b>イベント</b>画面の右上にあるアイコンをタップすると、<b>イベント作成</b>画面が表示されます。各イベントテンプレートの<b>ルール</b>を確認し、あなたのニーズに合うイベントを作成することができます。
           </div>
           <img class="picture" src="../assets/images/features_admin/10.png">
           <img class="picture" src="../assets/images/features_admin/11.png">

@@ -1,9 +1,9 @@
 <template>
   <page>
     <template slot="content">
-      <q-and-a-content :title="'アカウントの紐付け'">
+      <q-and-a-content :title="'アカウントの変更'">
         <template slot="content">
-          <div class="text">トップページ左上隅のメニューの<b>設定</b>からアカウントの設定や変更が可能です。アカウント紐付け機能で複数のログイン方法を紐付け/解除することができます。</div>
+          <div class="text">メニューの<b>設定</b>からログインアカウントの変更が可能です。ここに表示されているEメールまたは携帯番号でログインすることになります。</div>
           <img class="picture" src="../assets/images/q_and_a/4.png">
           <img class="picture" src="../assets/images/q_and_a/5.png">
         </template>

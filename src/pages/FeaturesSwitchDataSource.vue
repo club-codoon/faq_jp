@@ -1,9 +1,9 @@
 <template>
   <page>
     <template slot="content">
-      <q-and-a-content :title="'日本語版では不要のため削除'">
+      <q-and-a-content :title="'計測方法の切り替え'">
         <template slot="content">
-          <div class="text">菜单中可进行计步数据源的切换，目前有三个可选计步源，企业咕咚手环（购买手环之后点击可进行绑定手环），微信运动，手机计步</div>
+          <div class="text">携帯またはWeBandの2種類計測方法があります。マイページのスマートバンドにてWeバンドとペアリングすればWeBand計測に切り替えます。ペアリングを解除すれば自動的に携帯計測に変わります。</div>
           <img class="picture" src="../assets/images/q_and_a/6.png">
         </template>
       </q-and-a-content>
