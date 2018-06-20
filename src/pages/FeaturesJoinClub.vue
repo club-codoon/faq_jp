@@ -3,7 +3,7 @@
     <template slot="content">
       <q-and-a-content :title="'グループへの参加'">
         <template slot="content">
-          <div class="text">マイページの左上隅をタップし、マイグループから管理者をタップすれば現在のグループ管理者を確認することができます。管理者の記載した電話番号/Eメール、チャットで管理者に連絡できます。管理者は部門の調整や、グループメンバーの削除などができます。</div>
+          <div class="text">マイページの左上をタップしメニューが表示されます。「グループ参加」をタップし、キーワード検索またはグループのQRコードでグループに参加することができます。また、「友達を招待」でメンバーに参加情報を送信することもできます。</div>
           <img class="picture" src="../assets/images/q_and_a/1.png">
         </template>
       </q-and-a-content>
