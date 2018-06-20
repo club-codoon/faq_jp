@@ -1,9 +1,9 @@
 <template>
   <page>
     <template slot="content">
-      <help-content :title="'どの携帯でもWeRUNで歩数計を使用できますか?'">
+      <help-content :title="'どの携帯でもWeRUNアプリで歩数を計測できますか?'">
         <template slot="content">
-          <div class="text">WeRUN APPはiPhone 5s以下と一部のAndroidはサポートしておりません。</div>
+          <div class="text">WeRUNアプリはiPhone 5s以下及び、一部のAndroid携帯はサポートしておりません。</div>
         </template>
       </help-content>
     </template>

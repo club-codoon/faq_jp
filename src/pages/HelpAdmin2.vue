@@ -1,10 +1,10 @@
 <template>
   <page>
     <template slot="content">
-      <help-content :title="'イベントのアーカイブ確認方法'">
+      <help-content :title="'イベントをアーカイブしてからの確認方法'">
         <template slot="content">
           <div class="text">
-            <b>パソコンのログイン管理ページ</b>をご利用ください: https://www.werunclub.net 「イベント」でグループ内の進行中のイベント、間もなく開始のイベント、完了したイベントすべてを確認することができます。
+            パソコンで<b>管理ページ</b>: https://www.werunclub.netにログインしてご利用ください。 「イベント」で開催中のイベント、間もなく開始するイベント、終了したイベントすべてを確認することができます。
           </div>
         </template>
       </help-content>

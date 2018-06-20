@@ -9,29 +9,29 @@
         <template slot="tabs">
           <tab-content :name="'member'">
             <list-group>
-              <list-item :text="'どの携帯でもWeRUNで歩数計を使用できますか?'" :urlName="'Help1'"></list-item>
+              <list-item :text="'どの携帯でもWeRUNアプリで歩数を計測できますか?'" :urlName="'Help1'"></list-item>
               <list-item :text="'iPhoneの歩数データが0の場合の対処法'" :urlName="'Help2'"></list-item>
-              <list-item :text="'Androidの歩数データが0の場合の対処法'" :urlName="'Help3'"></list-item>
-              <list-item :text="'ママイページとランキングでデータが異なるのは？'" :urlName="'Help14'"></list-item>
-              <list-item :text="'iPhoneの歩数と「ヘルスケア」データに差がある理由は？'" :urlName="'Help10'"></list-item>
-              <list-item :text="'個人データ履歴の確認方法は？'" :urlName="'Help13'"></list-item>
-              <list-item :text="'GPSイベントデータにマイページの距離データが反映されません'" :urlName="'Help15'"></list-item>
-              <list-item :text="'GPSイベントに「ウォーク/ラン」スコアが一部反映されません'" :urlName="'Help16'"></list-item>
-              <list-item :text="'毎週・毎月のランク付けは暦週と暦月ですか？'" :urlName="'Help12'"></list-item>
-              <list-item :text="'WWeRUNの運動データと他のAPPのデータが異なる理由は？'" :urlName="'Help5'"></list-item>
-              <list-item :text="'ネットがないと歩数計測できませんか？'" :urlName="'Help6'"></list-item>
-              <list-item :text="'一部の歩数データが記録されません(Android)'" :urlName="'Help4'"></list-item>
-              <list-item :text="'WeRUNのバックグラウンドでの終了を防ぐ方法(Android)'" :urlName="'Help7'"></list-item>
-              <list-item :text="'Androidデータの激増と振ってもデータがない場合の対処法'" :urlName="'Help8'"></list-item>
+              <list-item :text="'Android携帯の歩数データが0の場合の対処法'" :urlName="'Help3'"></list-item>
+              <list-item :text="'マイページとランキングでの歩数が異なるのは？'" :urlName="'Help14'"></list-item>
+              <list-item :text="'アプリの歩数はiPhoneの「ヘルスケア」と差がある理由は？'" :urlName="'Help10'"></list-item>
+              <list-item :text="'過去の計測データの確認方法は？'" :urlName="'Help13'"></list-item>
+              <list-item :text="'GPSイベントにマイページの距離値が反映されない理由は？'" :urlName="'Help15'"></list-item>
+              <list-item :text="'GPSイベントに「ウォーク/ラン」で計測したデータの一部のみ反映される理由は？'" :urlName="'Help16'"></list-item>
+              <list-item :text="'毎週・毎月のランキングは暦週と暦月ですか？'" :urlName="'Help12'"></list-item>
+              <list-item :text="'WeRUNの運動データと他のAPPのデータが異なる理由は？'" :urlName="'Help5'"></list-item>
+              <list-item :text="'ネットがなくても歩数計測できますか？'" :urlName="'Help6'"></list-item>
+              <list-item :text="'一部の歩数が記録されない理由は？(Android)'" :urlName="'Help4'"></list-item>
+              <list-item :text="'バックグラウンドで実行中のWeRUNの強制終了を防ぐ方法(Android)'" :urlName="'Help7'"></list-item>
+              <list-item :text="'Android携帯において計測データの激増または振ってもデータが取れない理由は？'" :urlName="'Help8'"></list-item>
               <list-item :text="'歩数データに関するご質問がある場合'" :urlName="'Help11'"></list-item>
-              <list-item :text="'日本語版では不要のため削除。'" :urlName="'Help17'"></list-item>
+              <list-item :text="'スマートバンドから計測データを取得する方法'" :urlName="'Help17'"></list-item>
             </list-group>
           </tab-content>
           <tab-content :name="'admin'">
             <list-group>
-              <list-item :text="'歩数系イベントの異常データ回避方法'" :urlName="'HelpAdmin1'"></list-item>
-              <list-item :text="'イベントのアーカイブ確認方法'" :urlName="'HelpAdmin2'"></list-item>
-              <list-item :text="'イベントメンバーは組織によって変更されますか?'" :urlName="'HelpAdmin3'"></list-item>
+              <list-item :text="'歩数計測型イベントにおける異常データの回避'" :urlName="'HelpAdmin1'"></list-item>
+              <list-item :text="'イベントをアーカイブしてからの確認方法'" :urlName="'HelpAdmin2'"></list-item>
+              <list-item :text="'イベント参加者は組織変更によって影響されますか?'" :urlName="'HelpAdmin3'"></list-item>
             </list-group>
           </tab-content>
         </template>

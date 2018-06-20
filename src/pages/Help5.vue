@@ -3,7 +3,7 @@
     <template slot="content">
       <help-content :title="'WeRUNの運動データと他のAPPのデータが異なる理由は？'">
         <template slot="content">
-          <div class="text">各APPのデータソースとアルゴリズムは異なります。WeRUNは他のAPPのデータではなく、携帯の歩数計のハードウェアデータを読み込みます。</div>
+          <div class="text">アプリによってデータソースやアルゴリズムが異なります。WeRUNは他のアプリのデータではなく、直接携帯の計測センサーからデータを取得しています。</div>
         </template>
       </help-content>
     </template>

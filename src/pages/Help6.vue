@@ -1,10 +1,10 @@
 <template>
   <page>
     <template slot="content">
-      <help-content :title="'ネットがないと歩数計測できませんか？'">
+      <help-content :title="'ネットがなくても歩数計測できますか？'">
         <template slot="content">
           <div class="text">
-            ネットワークがなくても歩数計測できます。WeRUNはバックグラウンドで実行状態を維持して、記録した歩数を携帯に保存できます。ネットワークに接続した場合、下スワイプで歩数データを手動同期できます。
+            ネットワークがなくても歩数計測できます。WeRUNはバックグラウンドで実行し、計測した歩数を携帯に保存しています。ネットワークに接続した場合、マイページを下スワイプすれば歩数データを手動で同期できます。
           </div>
         </template>
       </help-content>
