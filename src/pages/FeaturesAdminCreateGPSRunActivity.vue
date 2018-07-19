@@ -13,7 +13,7 @@
           <div class="text">
             タイプを選択：「ノーマル戦」イベント期間内の、参加者のGPS屋外累積走行距離順/平均走行距離順でランク付けされます。「チャレンジ戦」イベント期間内に、GPS屋外ランニングで参加者が目標距離をクリアした時間順でランク付けされます。
           </div>
-          <img class="picture" src="../assets/images/features_admin/8.png">
+          <img class="picture" src="../assets/images/features_admin_activity/8.png">
           <div class="text">
             参加者の設定で<b>個人</b>を選択した場合、個人のスコアでランク付けされます。続けて参加する部門を選ぶと、<b>選択した部門のメンバーが自動的にイベントに参加します。</b>
           </div>
@@ -26,11 +26,11 @@
           <div class="text">
             イベントの開始時刻と終了時刻を設定してください。<b>GPS計測型イベントは、詳細な時刻を設定できます</b>
           </div>
-          <img class="picture" src="../assets/images/features_admin/9.png">
+          <img class="picture" src="../assets/images/features_admin_activity/9.png">
           <div class="text">
             カバー画像、イベント名、イベント紹介を入力すれば、 イベントを作成できます。
           </div>
-          <img class="picture" src="../assets/images/features_admin/10.png">
+          <img class="picture" src="../assets/images/features_admin_activity/10.png">
         </template>
       </q-and-a-content>
     </template>

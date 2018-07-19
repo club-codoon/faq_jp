@@ -8,9 +8,9 @@
             <b>統計</b>の<b>全てのランキングを見る</b>を選択し、<b>データをエクスポート</b>をクリックし、エクスポートタスクを作成するために必要な期間を選択してください。
             エクスポートした歩数データは、<b>エクスポート</b>画面に表示されます。エクスポート完了後、<b>エクスポート結果</b>からダウンロードできます。
           </div>
-          <img class="picture" src="../assets/images/features_admin/15.png">
+          <!-- <img class="picture" src="../assets/images/features_admin/15.png">
           <img class="picture" src="../assets/images/features_admin/16.png">
-          <img class="picture" src="../assets/images/features_admin/17.png">
+          <img class="picture" src="../assets/images/features_admin/17.png"> -->
         </template>
       </q-and-a-content>
     </template>

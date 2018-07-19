@@ -5,7 +5,7 @@
         <template slot="content">
           <div class="text">メニューの<b>設定</b>からログインアカウントの変更が可能です。ここに表示されているEメールまたは携帯番号でログインすることになります。</div>
           <img class="picture" src="../assets/images/q_and_a/4.png">
-          <img class="picture" src="../assets/images/q_and_a/5.png">
+          <!-- <img class="picture" src="../assets/images/q_and_a/5.png"> -->
         </template>
       </q-and-a-content>
     </template>
