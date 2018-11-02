@@ -7,9 +7,9 @@
         <img class="header-img" src="../assets/images/activity_template/header@2x.png"/>
         <img class="title" src="../assets/images/activity_template/pic1@2x.png"/>
         <img class="features" src="../assets/images/activity_template/pic2@2x.png"/>
-        <img class="slogan" src="../assets/images/activity_template/pic3@2x.png"/>
-        <a href="tel:18181905261" class="tel">定制热线 18181905261</a>
-        <div class="brands-title">点击查看品牌定制案例</div>
+        <img class="slogan" style="max-width:80%" src="../assets/images/activity_template/pic3@2x.png"/>
+        <a href="mailto:help@werunclub.net" class="tel">お問い合わせ先　help@werunclub.net</a>
+        <div class="brands-title">企業ロゴをタップして事例をご覧ください</div>
         <div class="brands">
           <img class="brands-item" src="../assets/images/activity_template/logo1@2x.png"
                @click="handleClickBelle">
@@ -25,17 +25,17 @@
       <div slot="content" class="page-belle page-detail" ref="pageBelle">
         <img class="logo" src="../assets/images/activity_template/title_belle@2x.png">
         <div class="tags">
-          <div class="tag">周年庆</div>
-          <div class="tag">个性排行榜</div>
-          <div class="tag">能量值</div>
-          <div class="tag">公益捐赠</div>
-          <div class="tag">抽奖</div>
+          <div class="tag">周年祝い</div>
+          <div class="tag">個性的なランキング</div>
+          <div class="tag">エネルギー値</div>
+          <div class="tag">チャリティー</div>
+          <div class="tag">抽選会</div>
         </div>
         <div class="desc">
-          2017年百丽集团成立25周年，为了让每个员工都共享周年庆的喜悦，企业咕咚为百丽集团定制主题H5活动。全国各城市百丽员工组成跑团进行PK，成员跑量可兑换为【能量值】，还可转化为公益基金进行捐赠，完成捐赠后可进行抽奖。通过本次活动，既让全国员工共同参与周年庆，又增加了团队成员的凝聚力，强健了身体素质。
+          Belle Internationalが設立されて25周年目の節目に、 WeRUNプラットフォームにて盛大なランニングイベントを実施した。すべての社員が参加し、各人の活動量を見える「エネルギー値」に変換された。また、数値に応じて寄付金に変換しチャリティー活動に参加する人に抽選で賞品を当たる企画を実施した。この公益性の高いスポーツイベントを通じて、Belle International設立25周年を祝いながら、 社員の団結力を高め、健康増進と健康経営の目的も達成できた。
         </div>
         <div class="pic-box">
-          <img class="pic" src="../assets/images/activity_template/pic_belle@2x.png">
+          <img class="pic" style="max-width:99%" src="../assets/images/activity_template/pic_belle@2x.png">
         </div>
       </div>
     </swipe-page>
@@ -44,15 +44,15 @@
       <div slot="content" class="page-chevrolet page-detail" ref="pageChevrolet">
         <img class="logo" src="../assets/images/activity_template/title_chevrolet@2x.png">
         <div class="tags">
-          <div class="tag">新品发售</div>
-          <div class="tag">个性化架构</div>
-          <div class="tag">趣味化数据</div>
+          <div class="tag">新商品発売</div>
+          <div class="tag">個性的な仕組み</div>
+          <div class="tag">データ分析</div>
         </div>
         <div class="desc">
-          2017年2月，雪佛兰全新科鲁兹首发，使用企业咕咚将旗下8大区域组成两大团队，进行燃烧卡路里比赛。2月12日当天，600多家经销商联动近60000人，在全国各地运动，将运动步数转化为燃烧卡路里，为全新科鲁兹的上市营造了超强噱头。
+          　シボレーは2017新車発表会に合わせてWeRUNにてイベントを開催。「燃焼百万カロリー」という情熱に満ちたコンセプトに合わせて、全国600以上の販売店がこのイベントに参加した。2月12日の一日だけで6万を超えたユーザがウォーキングイベントに参加し、合計歩数を消費カロリーに変換し、累計100万カロリーの消費を達成した。このイベントを通じて発売された新車は大きな注目を集めた。
         </div>
         <div class="pic-box">
-          <img class="pic" src="../assets/images/activity_template/pic_chevrolet@2x.png">
+          <img class="pic" style="max-width:99%" src="../assets/images/activity_template/pic_chevrolet@2x.png">
         </div>
       </div>
     </swipe-page>
@@ -61,15 +61,15 @@
       <div slot="content" class="page-adorg page-detail" ref="pageAd">
         <img class="logo" src="../assets/images/activity_template/title_ADorg@2x.png">
         <div class="tags">
-          <div class="tag">行业比赛</div>
-          <div class="tag">个性排行榜</div>
-          <div class="tag">抽奖</div>
+          <div class="tag">業種別競走</div>
+          <div class="tag">個性的なランキング</div>
+          <div class="tag">抽選会</div>
         </div>
         <div class="desc">
-          2017年10月，由中国广告协会主办的“克缇优纤满分2017团队健走争霸赛”在企业咕咚平台开展，此次比赛由中国广告协会主办，针对其下近千家广告公司，以及克丽缇娜全国上千家经销商。比赛以团队为单位，进行团队间的PK，同时全体参赛成员还可进行个人PK，成员健走里程达到10K还可进行抽奖。通过本次线上活动，将全国各地的团队组织在一个平台运动，跨越了时间、空间的限制
+          2017年10月に、中国広告協会がWeRUNで「2017Kelti団体ウォーキング争奪戦」を開催した。協会に加入している千以上の会員企業及び全国にある千以上のKeltiの販売代理店がこのイベントに参加した。争奪戦はグループ単位で競い合いながら、個人間の対戦も可能。10キロ―以上を歩いた参加者向けの抽選会も用意されていた。このオンラインイベントを通じて、時間と地域の制限を無くし、普段全国に分散されているチームを一つにプラットフォームに集結し、チームの団結力を高めることができた。
         </div>
         <div class="pic-box">
-          <img class="pic" src="../assets/images/activity_template/pic_ADorg@2x.png">
+          <img class="pic" style="max-width:99%" src="../assets/images/activity_template/pic_ADorg@2x.png">
         </div>
       </div>
     </swipe-page>
