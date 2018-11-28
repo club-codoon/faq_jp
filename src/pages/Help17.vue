@@ -4,9 +4,9 @@
       <help-content :title="'スマートバンドから計測データを取得する方法'">
         <template slot="content">
           <div class="text">
-            1. 携帯電話のBuletoothをオンにしてください。<br><br>
+            1. 携帯電話のBluetoothをオンにしてください。<br><br>
             2. マイページを下スワイプすると、歩数の上に「データ同期中」と表示されます。<br><br>
-            3. 携帯電話のBuletoothをオンのままにするとスマートバンドと常時接続となり、計測データは自動的に同期されます。
+            3. 携帯電話のBluetoothをオンのままにするとスマートバンドと常時接続となり、計測データは自動的に同期されます。
           </div>
         </template>
       </help-content>

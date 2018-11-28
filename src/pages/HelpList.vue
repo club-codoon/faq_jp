@@ -9,7 +9,9 @@
         <template slot="tabs">
           <tab-content :name="'member'">
             <list-group>
-              <list-item :text="'どの携帯でもWeRUNアプリで歩数を計測できますか?'" :urlName="'Help1'"></list-item>
+              <list-item :text="'スマートバンドとペアリングする時に、WeRUNスマートバンドはデバイス一覧に表示されないのは？'" :urlName="'Help9'"></list-item>
+              <list-item :text="'スマートバンドの充電方法とバッテリーの持ち時間について'" :urlName="'Help18'"></list-item>
+              <list-item :text="'どんな携帯でもWeRUNアプリで歩数を計測できますか?'" :urlName="'Help1'"></list-item>
               <list-item :text="'iPhoneの歩数データが0の場合の対処法'" :urlName="'Help2'"></list-item>
               <list-item :text="'Android携帯の歩数データが0の場合の対処法'" :urlName="'Help3'"></list-item>
               <list-item :text="'マイページとランキングでの歩数が異なるのは？'" :urlName="'Help14'"></list-item>
