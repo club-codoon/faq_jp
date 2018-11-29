@@ -1,10 +1,10 @@
 <template>
   <page>
     <template slot="content">
-      <help-content :title="'毎週・毎月のランキングは暦週と暦月ですか？'">
+      <help-content :title="'ランキングの毎週、毎月とは、期間が決まっていますか？'">
         <template slot="content">
           <div class="text">
-            ランキングは暦週と暦月によって計算します。
+            ランキングは暦週と暦月で計算されています。
           </div>
         </template>
       </help-content>

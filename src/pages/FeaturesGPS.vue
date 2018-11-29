@@ -3,7 +3,7 @@
     <template slot="content">
       <q-and-a-content :title="'屋外ラン／ウォーク（GPS）'">
         <template slot="content">
-          <div class="text">ウォーキングまたはランニングイベントに参加したメンバーは、マイページの「ウォーク/ラン」をタップしてから、スタートをタップして屋外ランニングイベントを始めます。ランニング後は終了をタップして運動を終了しルートとスコアを送信します。</div>
+          <div class="text">ウォーキングまたはランニングイベントに参加したメンバーは、マイページの「ウォーク/ラン」をタップしてから、スタートをタップして屋外ランニングイベントを始めます。ランニング後は終了をタップして記録を保存します。</div>
           <img class="picture" src="../assets/images/q_and_a/15.png">
         </template>
       </q-and-a-content>
