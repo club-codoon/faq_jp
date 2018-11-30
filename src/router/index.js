@@ -10,6 +10,7 @@ import Help5 from '@/pages/Help5'
 import Help6 from '@/pages/Help6'
 import Help7 from '@/pages/Help7'
 import Help8 from '@/pages/Help8'
+import Help9 from '@/pages/Help9'
 import Help10 from '@/pages/Help10'
 import Help11 from '@/pages/Help11'
 import Help12 from '@/pages/Help12'
@@ -18,6 +19,7 @@ import Help14 from '@/pages/Help14'
 import Help15 from '@/pages/Help15'
 import Help16 from '@/pages/Help16'
 import Help17 from '@/pages/Help17'
+import Help18 from '@/pages/Help18'
 import HelpAdmin1 from '@/pages/HelpAdmin1'
 import HelpAdmin2 from '@/pages/HelpAdmin2'
 import HelpAdmin3 from '@/pages/HelpAdmin3'
@@ -131,6 +133,11 @@ export default new Router({
       component: Help8
     },
     {
+      path: '/help/9',
+      name: 'Help9',
+      component: Help9
+    },
+    {
       path: '/help/10',
       name: 'Help10',
       component: Help10
@@ -169,6 +176,11 @@ export default new Router({
       path: '/help/17',
       name: 'Help17',
       component: Help17
+    },
+    {
+      path: '/help/18',
+      name: 'Help18',
+      component: Help18
     },
     {
       path: '/help/admin/1',
