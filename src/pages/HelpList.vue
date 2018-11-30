@@ -19,7 +19,7 @@
               <list-item :text="'過去の計測データの確認方法は？'" :urlName="'Help13'"></list-item>
               <list-item :text="'GPSイベントにマイページの距離値が反映されない理由は？'" :urlName="'Help15'"></list-item>
               <list-item :text="'GPSイベントに「ウォーク/ラン」で計測したデータの一部のみ反映される理由は？'" :urlName="'Help16'"></list-item>
-              <list-item :text="'毎週・毎月のランキングは暦週と暦月ですか？'" :urlName="'Help12'"></list-item>
+              <list-item :text="'ランキングの毎週、毎月とは、期間が決まっていますか？'" :urlName="'Help12'"></list-item>
               <list-item :text="'WeRUNの運動データと他のAPPのデータが異なる理由は？'" :urlName="'Help5'"></list-item>
               <list-item :text="'ネットがなくても歩数計測できますか？'" :urlName="'Help6'"></list-item>
               <list-item :text="'一部の歩数が記録されない理由は？(Android)'" :urlName="'Help4'"></list-item>
